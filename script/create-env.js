@@ -1,4 +1,3 @@
-const fs = require('fs'); // fs = file system
+const fs = require('fs');
 
-// fs.writeFileSync("path", `argumento a crear`);
-fs.writeFileSync("./.env", `API=${process.env.API}\n`);
+	fs.writeFileSync('./.env',`API=${process.env.API}\n`)
